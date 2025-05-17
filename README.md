@@ -2,7 +2,7 @@
 Meshing library for OpenFOAM designed to simplify the process of generating high quality meshes for any geometry, but especially dirty geometry.
 
 There's nothing here yet, this is just a passion project and a way for me to hone my C++ skills, after a semester of wanting to pull my hair out dealing with snappyHexMesh and cfMesh.
-Since it will be built on the OpenFOAM framework, meshes can be used in any CFD porgram OpenFOAM can export to.
+Since it will be built on the OpenFOAM framework, meshes can be used in any CFD program OpenFOAM can export to.
 
 ## Planning information:
 - Distributes points based on distance to a part surface using either varying density Poisson Disk Sampling or density based Centroidal Voronoi Tesselation to generate polyhedral cells.
